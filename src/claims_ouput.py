@@ -34,6 +34,7 @@ accepted_claims = df[df['status'] == 'accepted']
 rejected_claims = df[df['status'] == 'rejected']
 
 # Save the DataFrames to Excel files
+#change
 accepted_claims.to_excel(output_excel_correct, index=False)
 rejected_claims.to_excel(output_excel_rejected, index=False)
 
